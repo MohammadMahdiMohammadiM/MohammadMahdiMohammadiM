@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-https://img.shields.io/badge/Title%3A-Web%20Developer-red
+![Custom badge](https://img.shields.io/badge/Title%3A-Web%20Developer-red)
 
 [![My Awesome Stats](https://awesome-github-stats.azurewebsites.net/user-stats/MohammadMahdiMohammadiM?cardType=github&theme=dracula)](https://git.io/awesome-stats-card)
 
