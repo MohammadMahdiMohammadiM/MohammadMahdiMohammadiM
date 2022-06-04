@@ -14,20 +14,6 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-# See https://docs.cert-manager.io/en/latest/tutorials/acme/quick-start/index.html
-helm install --name stackedit stackedit/stackedit \
-  --set dropboxAppKey=$DROPBOX_API_KEY \
-  --set dropboxAppKeyFull=$DROPBOX_FULL_ACCESS_API_KEY \
-  --set googleClientId=$GOOGLE_CLIENT_ID \
-  --set googleApiKey=$GOOGLE_API_KEY \
-  --set githubClientId=$GITHUB_CLIENT_ID \
-  --set githubClientSecret=$GITHUB_CLIENT_SECRET \
-  --set wordpressClientId=\"$WORDPRESS_CLIENT_ID\" \
-  --set wordpressSecret=$WORDPRESS_CLIENT_SECRET \
-  --set ingress.enabled=true \
-  --set ingress.annotations."kubernetes\.io/ingress\.class"=nginx \
-  --set ingress.annotations."cert-manager\.io/cluster-issuer"=letsencrypt-prod \
-  --set ingress.hosts[0].host=stackedit.example.com \
-  --set ingress.hosts[0].paths[0]=/ \
-  --set ingress.tls[0].secretName=stackedit-tls \
-  --set ingress.tls[0].hosts[0]=stackedit.example.com
+[![My Awesome Stats](https://awesome-github-stats.azurewebsites.net/user-stats/MohammadMahdiMohammadiM?cardType=github&theme=dracula)](https://git.io/awesome-stats-card)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MohammadMahdiMohammadiM)](https://github.com/anuraghazra/github-readme-stats)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=MohammadMahdiMohammadiM&repo=ATemplate)](https://github.com/anuraghazra/github-readme-stats)
